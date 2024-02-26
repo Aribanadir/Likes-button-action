@@ -85,3 +85,5 @@ echo "<button class='like-btn like red' data-product-id='" . htmlspecialchars($r
 echo "</button></form>";
 echo "<button class='like-btn like'>";
 ?>
+</body>
+
