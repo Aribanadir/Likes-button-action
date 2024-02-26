@@ -86,4 +86,5 @@ echo "</button></form>";
 echo "<button class='like-btn like'>";
 ?>
 </body>
+</html> 
 
