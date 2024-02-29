@@ -3,7 +3,7 @@
 session_start();
 
 $host = "localhost";
-$dbname = "school";
+$dbname = "school"; // Votre base de donnée 
 $username = "root"; // Votre nom d'utilisateur de base de données
 $password = ""; // Votre mot de passe de base de données
 
@@ -11,7 +11,8 @@ try {
  $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
  $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
- $stmt = $pdo->query("SELECT id, likes FROM products");
+ $stmt = $pdo->query("SELECT id, likes FROM products"); // ”likes” est le nom de la table dans la base de donnée
+
 
     ?>
     <html lang="en" >
