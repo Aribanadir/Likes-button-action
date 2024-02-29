@@ -19,6 +19,7 @@ if (isset($_POST['user_id'])) {
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         // Vérifier si l'utilisateur a déjà aimé ce produit
+        // ”likes” est la table dans la base de donnée school qui permet de verifier si chaque utilisateur a clicker une seule fois sur le boutto. like
         $stmt = $pdo->prepare("SELECT COUNT(*) AS count FROM likes WHERE user_id = :user_id AND product_id = :product_id");
         $stmt->bindParam(':user_id', $userId, PDO::PARAM_INT);
         $stmt->bindParam(':product_id', $productId, PDO::PARAM_INT);
