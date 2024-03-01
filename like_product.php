@@ -1,5 +1,5 @@
 <?php
-// Vérifier si l'ID du produit est fourni dans la requête POST
+// Vérifier si l'ID du produit est fourni dans la requête POST sur la page boutique
 if (isset($_POST['user_id'])) {
     // Récupérer l'ID du produit depuis la requête POST
     $productId = $_POST['user_id'];
