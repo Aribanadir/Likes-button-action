@@ -71,7 +71,7 @@ try {
 <?php
 while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
       echo "<div class='card'>";
-      // Image ou couverture du produits ( Récupéré depuis la base de donnée )
+      // Image ou couverture du produit ( Récupéré depuis la base de donnée )
       echo "<img src='./uploads/" . htmlspecialchars($row['couverture']) . "' alt='Cover'>";
       echo "<div class='card-content'>";
       // Titre ou Nom du produit ( Récupéré depuis la base de donnée )
