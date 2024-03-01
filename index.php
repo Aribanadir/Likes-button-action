@@ -23,7 +23,7 @@ try {
     <link rel='stylesheet' href='https://vjs.zencdn.net/5-unsafe/video-js.css'><link rel="stylesheet" href="./style.css">
 
 
-<-- Ajoutez votre style ou associer celon votre page CSs --> 
+<-- test Ajoutez votre style ou associer celon votre page CSs --> 
     
     <style>
 
