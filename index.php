@@ -3,7 +3,7 @@
 session_start();
 
 $host = "localhost";
-$dbname = "school"; // Votre base de donnée 
+$dbname = "school"; // le nom de votre base de donnée 
 $username = "root"; // Votre nom d'utilisateur de base de données
 $password = ""; // Votre mot de passe de base de données
 
