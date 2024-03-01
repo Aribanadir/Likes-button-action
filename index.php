@@ -15,7 +15,7 @@ try {
 
 
     ?>
-    <html lang="fr" >
+    <html lang="en" >
     <head>
       <meta charset="UTF-8">
       <title>Likes.Github - AribaMS</title>
