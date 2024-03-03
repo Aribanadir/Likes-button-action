@@ -13,6 +13,10 @@ if (isset($_POST['user_id'])) {
     $username = "root";
     $password = "";
 
+
+// 
+
+
     try {
         // Connexion à la base de données MySQL
         $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
