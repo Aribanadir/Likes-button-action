@@ -14,7 +14,7 @@ if (isset($_POST['user_id'])) {
     $password = "";
 
 
-// inorm
+// inormation
 
 
     try {
