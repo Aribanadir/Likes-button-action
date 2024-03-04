@@ -14,7 +14,7 @@ if (isset($_POST['user_id'])) {
     $password = "";
 
 
-// inormation sur l'utilisateur et des informations des
+// inormation sur l'utilisateur et des informations des likes
 
 
     try {
