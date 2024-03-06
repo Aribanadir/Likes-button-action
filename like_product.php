@@ -1,5 +1,5 @@
 <?php
-// Vérifier si l'ID du produit est 
+// Vérifier si l'ID du
 if (isset($_POST['user_id'])) {
     // Récupérer l'ID du produit depuis la requête POST
     $productId = $_POST['user_id'];
