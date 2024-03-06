@@ -1,5 +1,5 @@
 <?php
-// Vérifie
+
 if (isset($_POST['user_id'])) {
     // Récupérer l'ID du produit depuis la requête POST
     $productId = $_POST['user_id'];
