@@ -7,7 +7,7 @@ if (isset($_POST['user_id'])) {
     // Supposons que l'ID de l'utilisateur est stocké dans une variable $userId (vous devez implémenter cette logique)
     $userId = 1; // Exemple d'ID d'utilisateur, vous devez récupérer l'ID de l'utilisateur connecté
 
-    // Connexion à la base de 
+    // Connexion à la 
     $host = "localhost";
     $dbname = "school";
     $username = "root";
