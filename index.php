@@ -5,7 +5,7 @@ session_start();
 $host = "localhost";
 $dbname = "school"; // le nom de votre base de donnée 
 $username = "root"; 
-$password = ""; // Votre mot de passe de base de données
+$password = ""; 
 
 try {
  $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
