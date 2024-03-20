@@ -1,5 +1,5 @@
 <?php
-// connexio
+// con
 session_start();
 
 $host = "localhost";
